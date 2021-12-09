@@ -37,3 +37,5 @@ class BankAccount:
         if (self.account > 0):
             self.account += self.account*0.07
 
+Owen = User('Owen',75)
+Owen.make_deposit(100).display_user_balance
